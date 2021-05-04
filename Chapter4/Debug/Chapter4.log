@@ -1,2 +1,4 @@
-﻿  Example4_1.cpp
+﻿  Example4-3.cpp
+E:\Blue_c++\Chapter4\Example4-3.cpp(3,26): warning C4305: “初始化”: 从“double”到“float”截断
+E:\Blue_c++\Chapter4\Example4-3.cpp(5,38): warning C4305: “初始化”: 从“double”到“float”截断
   Chapter4.vcxproj -> E:\Blue_c++\Chapter4\Debug\Chapter4.exe
