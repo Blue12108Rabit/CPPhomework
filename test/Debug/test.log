@@ -1,2 +1,4 @@
-﻿  源.cpp
-  test.vcxproj -> E:\Blue_c++\test\Debug\test.exe
+﻿  test.cpp
+E:\Blue_c++\test\test.cpp(19,22): error C2228: “.getx”的左边必须有类/结构/联合
+E:\Blue_c++\test\test.cpp(19,22): message : 类型是“num *”
+E:\Blue_c++\test\test.cpp(19,22): message : 是否改用“->”?

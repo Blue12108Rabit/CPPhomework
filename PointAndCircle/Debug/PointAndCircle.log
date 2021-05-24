@@ -1,0 +1,4 @@
+﻿  源.cpp
+E:\Blue_c++\PointAndCircle\源.cpp(87,10): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\Blue_c++\PointAndCircle\源.cpp(94): warning C4715: “isPointInCircle”: 不是所有的控件路径都返回值
+  PointAndCircle.vcxproj -> E:\Blue_c++\PointAndCircle\Debug\PointAndCircle.exe
