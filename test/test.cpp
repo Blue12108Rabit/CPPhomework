@@ -1,24 +1,31 @@
 #include<iostream>
+#include<cstring>
 using namespace std;
-class num {
-public:
-	int getx() { return x; }
-	num* setx() { x = 2; return this; }
+class employee {
 private:
-	int x = 1;
-};
-class b {
+	char name[50];
+	char streetAdd[50];
+	char city[50];
+	char postcode[50];
 public:
-	num* getnum() { return n; }
-private:
-	num* n = new num();
+	employee(const char* n, const char* s, const char* c, const char* p);
+	void setname(const char* n);
+	void display();
 };
-int main()
-{
-	b b1;
-	cout << b1.getnum().getx() << endl;
-	b1.getnum()->setx();//为什么这行代码不起作用？
-	cout << b1.getnum().getx() << endl;
-	return 0;
+void employee::setname(const char* n) {
+	strcpy(name, n);
 }
-
+employee::employee(const char* n, const char* s, const char* c, const char* p) {
+	strcpy(name, n);
+	strcpy(streetAdd, s);
+	strcpy(city, c);
+	strcpy(postcode, p);
+}
+void employee::display() {
+	cout << name << " " << streetAdd << " " << city << " " << postcode << endl;
+}
+int main() {
+	employee a1("we", "er", "rt", "ty");
+	a1.setname("lll");
+	a1.display();
+}
